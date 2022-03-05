@@ -1,0 +1,35 @@
+:root{
+    --bg-one:#fed7aa;
+    --bg-two:#fde68a;
+    --bg-three:#d9f99d;
+    --tc-one:#f97316;
+    --tc-two:#f59e0b;
+    --tc-three:#84cc16;
+}
+.grid-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-item{
+    display: grid;
+    place-items: center;
+    width: 250px;
+    height: 250px;
+    border: 1px solid var(--prima);
+}
+.bg-1{
+    background-color: var(--bg-one);
+    color: var(--tc-one);
+}
+.bg-2{
+    background-color: var(--bg-two);
+    color: var(--tc-two);
+}
+.bg-3{
+    background-color: var(--bg-three);
+    color: var(--tc-three);
+}
