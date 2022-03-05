@@ -1,0 +1,46 @@
+:root{
+    --primary-color:#7857fe;
+    --info-color:#495ed1 ;
+    --info-bc:#bfd5fd ;
+    --success-color:#3ca120 ;
+    --warning-color:#e49502 ;
+    --error-color:#FC3A3A ;
+    --success-bc:#aefabe ;
+    --warning-bc:#fde7bd ;
+    --error-bc: #fcc3c3;
+}
+.comp-container{
+    padding: 2rem;
+    margin: 1rem 3rem;
+    background-color:var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.alert {
+    width: 60%;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.info {
+    background: var(--info-bc);
+    color: var(--info-color);
+}
+.success{
+    background: var(--success-bc);
+    color: var(--success-color);
+}
+.warning{
+    background: var(--warning-bc);
+    color: var(--warning-color);
+}
+.error{
+    background: var(--error-bc);
+    color: var(--error-color);
+}

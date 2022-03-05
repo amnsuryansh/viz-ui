@@ -1,0 +1,56 @@
+.badge-place{
+    position: absolute;
+    left: 80%;
+    top: 70%;
+}
+.badge-sm {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+}
+.badge-md {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: red;
+}
+.badge-lg {
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+}
+
+.badge-xlg {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: red;
+}
+.badge {
+    border-radius: 50%;
+    border: 0.1rem solid white;
+    cursor: default;
+}
+.wrapper{
+    position: relative;
+    overflow: visible;
+}
+img{
+    border-radius: 50%;
+}
+.icon{
+    font-size: xx-large;
+    color: black;
+}
+.icon-place {
+    position: absolute;
+    top: -25%;
+    left: 70%;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    padding: 0.2rem;
+    font-size: 0.6rem;
+}
+
+.change-height{
+    height: 15rem;
+}

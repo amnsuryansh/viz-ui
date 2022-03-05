@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="alert.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>COMP-UI | Home</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">
+            <p class="h2 wh-text">COMP-UI</p>
+        </a>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a class="nav-link active wh-text" href="index.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link wh-text" href="index.html">Docs</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link wh-text" href="#">Connect</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link wh-text" href="#">Installation</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="c-head text-center">Input <span class="col-ch">Component</span></h1>
+    <h2 class="sub-head text-center col-ch hover-line mar-tb-1">Basic Textboxes</h2>
+    <section class="c-container comp-flex">
+        <div class="comp-flex">
+            <form action="" class="form-card input-flex text-wrap">
+                <div class="form-value ">
+                  <label class="form-label text-left" for="name">Default</label>
+                  <input type="text" class="form-input mar-sm" id="name">
+                </div>
+                <!-- <div class="form-value">
+                  <input type="text" class="form-input" id="name" required="">
+                  <label class="move-label" for="name">Move label input</label>
+                </div> -->
+                <div class="form-value">
+                  <label class="form-label" for="password">Password</label>
+                  <input type="password" class="form-input mar-sm" id="password">
+                </div>
+                <div class="form-value">
+                  <label class="form-label" for="number">Number</label>
+                  <input type="number" class="form-input mar-sm" id="number">
+                </div>
+                <div class="form-value">
+                  <label class="form-label" for="date">Date</label>
+                  <input type="date" class="form-input mar-sm" id="date">
+                </div>
+                <div class="form-value">
+                  <label class="form-label" for="search-text">Search Text</label>
+                  <input type="search" class="form-input mar-sm reset-ip" placeholder="search here" id="search-text">
+                </div>
+                <div class="form-value">
+                  <label class="form-label" for="disabled">Disabled</label>
+                  <input type="text" class="form-input mar-sm disabled" value="no actions" id="disabled">
+                </div>
+                <div class="form-value">
+                  <label class="form-label" for="read">Read Only</label>
+                  <input type="text" class="form-input mar-sm disabled" value="This is input Component" id="read-only">
+                </div>
+                <div class="form-value">
+                  <label class="form-label" for="text-area">Text Area</label>
+                  <textarea type="textarea" class="form-input mar-sm" id="text-area"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <h2 class="sub-head text-center col-ch hover-line mar-tb-1">Basic Textboxes</h2>
+    <section class="c-container comp-flex">
+        <div class="comp-flex">
+            <form action="" class="form-card validation-form">
+                <div class="form-value col-flex full-width">
+                  <label class="form-label" for="name">Name*
+                  <input type="text" class="form-input mar-sm-tb" id="username" placeholder="Tanay Pratap" required>
+                </div>
+                <div class="form-value col-flex full-width">
+                  <label class="form-label" for="email">Email*
+                  <input type="email" class="form-input mar-sm-tb" id="username" placeholder="tanay.pratap@neogcamp.com" required>
+                </div>
+                <div class="form-value col-flex full-width">
+                  <label class="form-label" for="upassword">Password*
+                  <input type="password" class="form-input mar-sm-tb" placeholder="enter password" required>
+                </div>
+                <div class="form-value col-flex full-width text-left">
+                  <input class="checkbox" type="checkbox" id="terms" required="">
+                  <label class="" for="terms">Keep me logged in </label>
+                </div>
+                <button class="btn btn-primary-2">Submit</button>
+                <button class="btn btn-secondary-2">Cancel</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

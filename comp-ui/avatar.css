@@ -1,0 +1,37 @@
+.avatar-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.avatar {
+    border-radius: 50%;
+    border: 0.25rem solid white;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    overflow: hidden;
+}
+.avatar-sm {
+    font-size: 1.6rem;
+}
+.avatar-md{
+    height: 8rem;
+    width: 8rem;
+    font-size: 2.6rem;
+}
+.avatar-lg {
+    height: 11rem;
+    width: 11rem;
+    font-size: 2.8rem;
+}
+.avatar-xlg {
+    height: 14rem;
+    width: 14rem;
+    font-size: 3rem;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
